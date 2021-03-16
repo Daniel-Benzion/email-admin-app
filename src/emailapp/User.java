@@ -1,6 +1,6 @@
 package emailapp;
 
-public class Email {
+public class User {
 
 	private String firstName;
 	private String lastName;
@@ -8,7 +8,7 @@ public class Email {
 	private String email;
 	private String password;
 
-	public Email(String firstName, String lastName, String department) {
+	public User(String firstName, String lastName, String department) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.department = department;
